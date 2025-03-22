@@ -1,6 +1,6 @@
 return {
-	"lsproule/lsps",
+	"lsproule/lsps-manager",
 	config = function()
-		require("lsp").setup({})
+    require("lsp-manager").setup{}
 	end
 }

@@ -1,5 +1,5 @@
 return {
-	"tsserver",
+	"ts_ls",
 	enabled = true,
 	config = function(lspconfig)
 		lspconfig.tsserver.setup {
